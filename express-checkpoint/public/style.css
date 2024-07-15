@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: red;
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: x-large;
+  color: white;
+  padding: 0.3rem;
+}
+.navbar a:hover {
+  color: rgb(255, 0, 0);
+  border: 2rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.7rem;
+  border-width: 3rem;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  /* margin: 2rem; */
+}
+
+.heroSection {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1000px;
+  justify-content: center;
+  margin-top: 3rem;
+  /*border: 0.2rem solid red;*/
+  margin-inline: auto;
+  margin-bottom: 3rem;
+  align-items: center;
+  font-size: larger;
+  text-align: center;
+}
+h1 {
+  color: red;
+}
+
+.heroSection p {
+  line-height: 2rem;
+}
